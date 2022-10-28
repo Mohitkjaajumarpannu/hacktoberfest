@@ -23,9 +23,3 @@ ECHO Hello, World!
 ::
 :: In this case, that would be so fast that it would not be possible to see the
 :: "Hello, World!" message. In order to prevent this, we want to pause the
-:: execution of the script right before it completes, so that the command line
-:: window would stay open for our message to be seen.
-:: 
-:: PAUSE command suspends processing of a batch program and displays a message
-:: prompting the user to press any key to continue.
-PAUSE
